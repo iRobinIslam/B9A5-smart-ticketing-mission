@@ -4,14 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>R Paribahan</title>
+  <title>E-TicketBD</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="images/bus-icon.png" type="image/x-icon">
   <!-- daisy ui and tailwind css link -->
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="font-raleway">
   <!-- header section here -->
   <header class="w-11/12 mx-auto">
     <!-- nav section here -->
@@ -62,6 +63,29 @@
         </div>
       </div>
     </div>
+    <section class="hidden lg:grid lg:grid-cols-3 w-max lg:mx-auto gap-4 lg:-translate-y-10 z-50">
+      <div class="flex gap-3 items-center bg-white rounded-lg shadow-md shadow-green-300 py-8 px-12">
+        <div><img src="./images/people.png" alt=""></div>
+        <div>
+          <h1 class="font-bold text-2xl">500k+</h1>
+          <p>Registered users</p>
+        </div>
+      </div>
+      <div class="flex gap-3 items-center  bg-white rounded-lg shadow-md  shadow-green-300 py-8 px-12">
+        <div><img src="./images/ticket-cupon.png" alt=""></div>
+        <div>
+          <h1 class="font-bold text-2xl">1.7 Lakhs</h1>
+          <p>Tickets sold</p>
+        </div>
+      </div>
+      <div class="flex gap-3 items-center  bg-white rounded-lg shadow-md  shadow-green-300 py-8 px-12">
+        <div><img src="./images/stoppage.png" alt=""></div>
+        <div>
+          <h1 class="font-bold text-2xl">80k+</h1>
+          <p>Rental partners</p>
+        </div>
+      </div>
+    </section>
   </header>
 
   <main class="w-11/12 mx-auto">
@@ -184,7 +208,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex flex-col gap-y-6">
+              <div class="flex flex-col gap-y-6 font-inter">
                 <div class="flex  gap-2 lg:gap-16 my-1 w-full items-center justify-center">
                   <p class="invisible">A</p>
                   <button class="kbd px-4 lg:px-8 invisible">A1</button>
